@@ -1,0 +1,229 @@
+Reading 67,371,008 bytes from TinyStories-train.txt at revision f54c09fd23315a6f9c86f9dc80f725de7d8f9c64
+Reading 131,072 bytes from TinyStories-valid.txt at revision f54c09fd23315a6f9c86f9dc80f725de7d8f9c64
+RUN {"runtime_id": "ac8999e94b5c4354aee6c8ced78b2866", "seed": 1776, "model": "shallow_wide", "cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz", "threads": 2, "torch": "2.14.1+cpu", "revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64", "train_sha256": "70163c7345ec1da54cf495d9e554227eef6a622e02de79e5bacf6d8559cd292f", "eval_sha256": "4a79ede43ee5a4931fb3c5ae06f55406aecc8f6737be6ce3ce606dd84f5e86bd", "eval_bytes": 130048, "target_bytes": 10567680, "time_budget_s": 1800}
+shallow_wide: verified 357,024 trainable parameters
+deep_narrow: verified 361,408 trainable parameters
+TRAINING shallow_wide | seed 1776 | 1800 s budget | starting at step 0
+PROGRESS shallow_wide | seed 1776 | 60.0 s | 470,016 bytes
+PROGRESS shallow_wide | seed 1776 | 120.5 s | 947,200 bytes
+PROGRESS shallow_wide | seed 1776 | 180.1 s | 1,429,504 bytes
+PROGRESS shallow_wide | seed 1776 | 240.0 s | 1,926,144 bytes
+PROGRESS shallow_wide | seed 1776 | 300.5 s | 2,413,568 bytes
+PROGRESS shallow_wide | seed 1776 | 360.1 s | 2,905,088 bytes
+PROGRESS shallow_wide | seed 1776 | 420.0 s | 3,410,944 bytes
+PROGRESS shallow_wide | seed 1776 | 480.0 s | 3,892,224 bytes
+PROGRESS shallow_wide | seed 1776 | 540.1 s | 4,399,104 bytes
+PROGRESS shallow_wide | seed 1776 | 600.5 s | 4,888,576 bytes
+PROGRESS shallow_wide | seed 1776 | 660.1 s | 5,381,120 bytes
+PROGRESS shallow_wide | seed 1776 | 720.0 s | 5,883,904 bytes
+PROGRESS shallow_wide | seed 1776 | 780.0 s | 6,362,112 bytes
+PROGRESS shallow_wide | seed 1776 | 840.1 s | 6,868,992 bytes
+PROGRESS shallow_wide | seed 1776 | 900.2 s | 7,365,632 bytes
+PROGRESS shallow_wide | seed 1776 | 960.0 s | 7,856,128 bytes
+PROGRESS shallow_wide | seed 1776 | 1020.1 s | 8,363,008 bytes
+PROGRESS shallow_wide | seed 1776 | 1080.1 s | 8,841,216 bytes
+PROGRESS shallow_wide | seed 1776 | 1140.1 s | 9,348,096 bytes
+PROGRESS shallow_wide | seed 1776 | 1200.1 s | 9,847,808 bytes
+PROGRESS shallow_wide | seed 1776 | 1260.0 s | 10,335,232 bytes
+RESULT {"seed": 1776, "model": "shallow_wide", "checkpoint": "equal_bytes", "steps": 10320, "bytes": 10567680, "training_seconds": 1288.047513451996, "bits_per_byte": 1.4511832473306856}
+PROGRESS shallow_wide | seed 1776 | 1320.1 s | 10,819,584 bytes
+PROGRESS shallow_wide | seed 1776 | 1380.1 s | 11,317,248 bytes
+PROGRESS shallow_wide | seed 1776 | 1440.1 s | 11,823,104 bytes
+PROGRESS shallow_wide | seed 1776 | 1500.1 s | 12,301,312 bytes
+PROGRESS shallow_wide | seed 1776 | 1560.1 s | 12,805,120 bytes
+PROGRESS shallow_wide | seed 1776 | 1620.5 s | 13,295,616 bytes
+PROGRESS shallow_wide | seed 1776 | 1680.0 s | 13,792,256 bytes
+PROGRESS shallow_wide | seed 1776 | 1740.1 s | 14,301,184 bytes
+PROGRESS shallow_wide | seed 1776 | 1800.1 s | 14,781,440 bytes
+RESULT {"seed": 1776, "model": "shallow_wide", "checkpoint": "equal_time", "steps": 14435, "bytes": 14781440, "training_seconds": 1800.0882960149895, "bits_per_byte": 1.4151818359990067}
+MODEL COMPLETE {"runtime_id": "ac8999e94b5c4354aee6c8ced78b2866", "seed": 1776, "model": "shallow_wide", "cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz", "threads": 2, "torch": "2.14.1+cpu", "revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64", "train_sha256": "70163c7345ec1da54cf495d9e554227eef6a622e02de79e5bacf6d8559cd292f", "eval_sha256": "4a79ede43ee5a4931fb3c5ae06f55406aecc8f6737be6ce3ce606dd84f5e86bd", "eval_bytes": 130048, "target_bytes": 10567680, "time_budget_s": 1800, "measurements": [{"seed": 1776, "model": "shallow_wide", "checkpoint": "equal_bytes", "steps": 10320, "bytes": 10567680, "training_seconds": 1288.047513451996, "bits_per_byte": 1.4511832473306856}, {"seed": 1776, "model": "shallow_wide", "checkpoint": "equal_time", "steps": 14435, "bytes": 14781440, "training_seconds": 1800.0882960149895, "bits_per_byte": 1.4151818359990067}]}
+RUN {"runtime_id": "ac8999e94b5c4354aee6c8ced78b2866", "seed": 1776, "model": "deep_narrow", "cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz", "threads": 2, "torch": "2.14.1+cpu", "revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64", "train_sha256": "70163c7345ec1da54cf495d9e554227eef6a622e02de79e5bacf6d8559cd292f", "eval_sha256": "4a79ede43ee5a4931fb3c5ae06f55406aecc8f6737be6ce3ce606dd84f5e86bd", "eval_bytes": 130048, "target_bytes": 10567680, "time_budget_s": 1800}
+shallow_wide: verified 357,024 trainable parameters
+deep_narrow: verified 361,408 trainable parameters
+TRAINING deep_narrow | seed 1776 | 1800 s budget | starting at step 0
+PROGRESS deep_narrow | seed 1776 | 60.0 s | 353,280 bytes
+PROGRESS deep_narrow | seed 1776 | 120.1 s | 728,064 bytes
+PROGRESS deep_narrow | seed 1776 | 180.0 s | 1,088,512 bytes
+PROGRESS deep_narrow | seed 1776 | 240.0 s | 1,458,176 bytes
+PROGRESS deep_narrow | seed 1776 | 300.2 s | 1,835,008 bytes
+PROGRESS deep_narrow | seed 1776 | 360.1 s | 2,191,360 bytes
+PROGRESS deep_narrow | seed 1776 | 420.0 s | 2,567,168 bytes
+PROGRESS deep_narrow | seed 1776 | 480.1 s | 2,922,496 bytes
+PROGRESS deep_narrow | seed 1776 | 540.0 s | 3,296,256 bytes
+PROGRESS deep_narrow | seed 1776 | 601.2 s | 3,663,872 bytes
+PROGRESS deep_narrow | seed 1776 | 660.0 s | 4,026,368 bytes
+PROGRESS deep_narrow | seed 1776 | 720.1 s | 4,403,200 bytes
+PROGRESS deep_narrow | seed 1776 | 780.0 s | 4,759,552 bytes
+PROGRESS deep_narrow | seed 1776 | 840.0 s | 5,135,360 bytes
+PROGRESS deep_narrow | seed 1776 | 900.6 s | 5,497,856 bytes
+PROGRESS deep_narrow | seed 1776 | 960.1 s | 5,862,400 bytes
+PROGRESS deep_narrow | seed 1776 | 1020.0 s | 6,234,112 bytes
+PROGRESS deep_narrow | seed 1776 | 1080.1 s | 6,587,392 bytes
+PROGRESS deep_narrow | seed 1776 | 1140.1 s | 6,960,128 bytes
+PROGRESS deep_narrow | seed 1776 | 1200.1 s | 7,318,528 bytes
+PROGRESS deep_narrow | seed 1776 | 1260.0 s | 7,687,168 bytes
+PROGRESS deep_narrow | seed 1776 | 1320.1 s | 8,061,952 bytes
+PROGRESS deep_narrow | seed 1776 | 1380.1 s | 8,415,232 bytes
+PROGRESS deep_narrow | seed 1776 | 1440.0 s | 8,783,872 bytes
+PROGRESS deep_narrow | seed 1776 | 1500.5 s | 9,125,888 bytes
+PROGRESS deep_narrow | seed 1776 | 1560.0 s | 9,481,216 bytes
+PROGRESS deep_narrow | seed 1776 | 1620.1 s | 9,847,808 bytes
+PROGRESS deep_narrow | seed 1776 | 1680.1 s | 10,195,968 bytes
+PROGRESS deep_narrow | seed 1776 | 1740.1 s | 10,566,656 bytes
+RESULT {"seed": 1776, "model": "deep_narrow", "checkpoint": "equal_bytes", "steps": 10320, "bytes": 10567680, "training_seconds": 1740.2762380620095, "bits_per_byte": 1.5325416573934512}
+PROGRESS deep_narrow | seed 1776 | 1800.1 s | 10,933,248 bytes
+RESULT {"seed": 1776, "model": "deep_narrow", "checkpoint": "equal_time", "steps": 10677, "bytes": 10933248, "training_seconds": 1800.1235871930082, "bits_per_byte": 1.544458480170504}
+MODEL COMPLETE {"runtime_id": "ac8999e94b5c4354aee6c8ced78b2866", "seed": 1776, "model": "deep_narrow", "cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz", "threads": 2, "torch": "2.14.1+cpu", "revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64", "train_sha256": "70163c7345ec1da54cf495d9e554227eef6a622e02de79e5bacf6d8559cd292f", "eval_sha256": "4a79ede43ee5a4931fb3c5ae06f55406aecc8f6737be6ce3ce606dd84f5e86bd", "eval_bytes": 130048, "target_bytes": 10567680, "time_budget_s": 1800, "measurements": [{"seed": 1776, "model": "deep_narrow", "checkpoint": "equal_bytes", "steps": 10320, "bytes": 10567680, "training_seconds": 1740.2762380620095, "bits_per_byte": 1.5325416573934512}, {"seed": 1776, "model": "deep_narrow", "checkpoint": "equal_time", "steps": 10677, "bytes": 10933248, "training_seconds": 1800.1235871930082, "bits_per_byte": 1.544458480170504}]}
+PAIR RESULT {"seed": 1776, "runtime_id": "ac8999e94b5c4354aee6c8ced78b2866", "models": {"shallow_wide": {"equal_bytes": {"seed": 1776, "model": "shallow_wide", "checkpoint": "equal_bytes", "steps": 10320, "bytes": 10567680, "training_seconds": 1288.047513451996, "bits_per_byte": 1.4511832473306856}, "equal_time": {"seed": 1776, "model": "shallow_wide", "checkpoint": "equal_time", "steps": 14435, "bytes": 14781440, "training_seconds": 1800.0882960149895, "bits_per_byte": 1.4151818359990067}}, "deep_narrow": {"equal_bytes": {"seed": 1776, "model": "deep_narrow", "checkpoint": "equal_bytes", "steps": 10320, "bytes": 10567680, "training_seconds": 1740.2762380620095, "bits_per_byte": 1.5325416573934512}, "equal_time": {"seed": 1776, "model": "deep_narrow", "checkpoint": "equal_time", "steps": 10677, "bytes": 10933248, "training_seconds": 1800.1235871930082, "bits_per_byte": 1.544458480170504}}}}
+RUN {"runtime_id": "ac8999e94b5c4354aee6c8ced78b2866", "seed": 2027, "model": "deep_narrow", "cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz", "threads": 2, "torch": "2.14.1+cpu", "revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64", "train_sha256": "70163c7345ec1da54cf495d9e554227eef6a622e02de79e5bacf6d8559cd292f", "eval_sha256": "4a79ede43ee5a4931fb3c5ae06f55406aecc8f6737be6ce3ce606dd84f5e86bd", "eval_bytes": 130048, "target_bytes": 10567680, "time_budget_s": 1800}
+shallow_wide: verified 357,024 trainable parameters
+deep_narrow: verified 361,408 trainable parameters
+TRAINING deep_narrow | seed 2027 | 1800 s budget | starting at step 0
+PROGRESS deep_narrow | seed 2027 | 60.1 s | 360,448 bytes
+PROGRESS deep_narrow | seed 2027 | 120.1 s | 716,800 bytes
+PROGRESS deep_narrow | seed 2027 | 180.1 s | 1,086,464 bytes
+PROGRESS deep_narrow | seed 2027 | 240.1 s | 1,436,672 bytes
+PROGRESS deep_narrow | seed 2027 | 300.0 s | 1,807,360 bytes
+PROGRESS deep_narrow | seed 2027 | 360.1 s | 2,168,832 bytes
+PROGRESS deep_narrow | seed 2027 | 420.1 s | 2,531,328 bytes
+PROGRESS deep_narrow | seed 2027 | 480.1 s | 2,903,040 bytes
+PROGRESS deep_narrow | seed 2027 | 540.1 s | 3,254,272 bytes
+PROGRESS deep_narrow | seed 2027 | 600.1 s | 3,621,888 bytes
+PROGRESS deep_narrow | seed 2027 | 661.1 s | 3,983,360 bytes
+PROGRESS deep_narrow | seed 2027 | 720.1 s | 4,339,712 bytes
+PROGRESS deep_narrow | seed 2027 | 780.0 s | 4,710,400 bytes
+PROGRESS deep_narrow | seed 2027 | 840.0 s | 5,060,608 bytes
+PROGRESS deep_narrow | seed 2027 | 900.1 s | 5,431,296 bytes
+PROGRESS deep_narrow | seed 2027 | 960.5 s | 5,796,864 bytes
+PROGRESS deep_narrow | seed 2027 | 1020.1 s | 6,153,216 bytes
+PROGRESS deep_narrow | seed 2027 | 1080.0 s | 6,525,952 bytes
+PROGRESS deep_narrow | seed 2027 | 1140.2 s | 6,879,232 bytes
+PROGRESS deep_narrow | seed 2027 | 1200.0 s | 7,249,920 bytes
+PROGRESS deep_narrow | seed 2027 | 1260.0 s | 7,618,560 bytes
+PROGRESS deep_narrow | seed 2027 | 1320.1 s | 7,974,912 bytes
+PROGRESS deep_narrow | seed 2027 | 1380.1 s | 8,348,672 bytes
+PROGRESS deep_narrow | seed 2027 | 1440.3 s | 8,704,000 bytes
+PROGRESS deep_narrow | seed 2027 | 1500.0 s | 9,076,736 bytes
+PROGRESS deep_narrow | seed 2027 | 1560.5 s | 9,443,328 bytes
+PROGRESS deep_narrow | seed 2027 | 1620.0 s | 9,797,632 bytes
+PROGRESS deep_narrow | seed 2027 | 1680.0 s | 10,169,344 bytes
+PROGRESS deep_narrow | seed 2027 | 1740.0 s | 10,522,624 bytes
+RESULT {"seed": 2027, "model": "deep_narrow", "checkpoint": "equal_bytes", "steps": 10320, "bytes": 10567680, "training_seconds": 1746.3443358899963, "bits_per_byte": 1.5489836416374068}
+PROGRESS deep_narrow | seed 2027 | 1800.0 s | 10,890,240 bytes
+RESULT {"seed": 2027, "model": "deep_narrow", "checkpoint": "equal_time", "steps": 10635, "bytes": 10890240, "training_seconds": 1800.034294383992, "bits_per_byte": 1.5409185544968242}
+MODEL COMPLETE {"runtime_id": "ac8999e94b5c4354aee6c8ced78b2866", "seed": 2027, "model": "deep_narrow", "cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz", "threads": 2, "torch": "2.14.1+cpu", "revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64", "train_sha256": "70163c7345ec1da54cf495d9e554227eef6a622e02de79e5bacf6d8559cd292f", "eval_sha256": "4a79ede43ee5a4931fb3c5ae06f55406aecc8f6737be6ce3ce606dd84f5e86bd", "eval_bytes": 130048, "target_bytes": 10567680, "time_budget_s": 1800, "measurements": [{"seed": 2027, "model": "deep_narrow", "checkpoint": "equal_bytes", "steps": 10320, "bytes": 10567680, "training_seconds": 1746.3443358899963, "bits_per_byte": 1.5489836416374068}, {"seed": 2027, "model": "deep_narrow", "checkpoint": "equal_time", "steps": 10635, "bytes": 10890240, "training_seconds": 1800.034294383992, "bits_per_byte": 1.5409185544968242}]}
+RUN {"runtime_id": "ac8999e94b5c4354aee6c8ced78b2866", "seed": 2027, "model": "shallow_wide", "cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz", "threads": 2, "torch": "2.14.1+cpu", "revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64", "train_sha256": "70163c7345ec1da54cf495d9e554227eef6a622e02de79e5bacf6d8559cd292f", "eval_sha256": "4a79ede43ee5a4931fb3c5ae06f55406aecc8f6737be6ce3ce606dd84f5e86bd", "eval_bytes": 130048, "target_bytes": 10567680, "time_budget_s": 1800}
+shallow_wide: verified 357,024 trainable parameters
+deep_narrow: verified 361,408 trainable parameters
+TRAINING shallow_wide | seed 2027 | 1800 s budget | starting at step 0
+PROGRESS shallow_wide | seed 2027 | 60.1 s | 482,304 bytes
+PROGRESS shallow_wide | seed 2027 | 120.0 s | 992,256 bytes
+PROGRESS shallow_wide | seed 2027 | 180.0 s | 1,500,160 bytes
+PROGRESS shallow_wide | seed 2027 | 240.0 s | 1,989,632 bytes
+PROGRESS shallow_wide | seed 2027 | 300.0 s | 2,501,632 bytes
+PROGRESS shallow_wide | seed 2027 | 360.1 s | 2,987,008 bytes
+PROGRESS shallow_wide | seed 2027 | 420.0 s | 3,496,960 bytes
+PROGRESS shallow_wide | seed 2027 | 480.1 s | 4,006,912 bytes
+PROGRESS shallow_wide | seed 2027 | 540.1 s | 4,494,336 bytes
+PROGRESS shallow_wide | seed 2027 | 600.1 s | 5,007,360 bytes
+PROGRESS shallow_wide | seed 2027 | 660.0 s | 5,495,808 bytes
+PROGRESS shallow_wide | seed 2027 | 720.0 s | 6,005,760 bytes
+PROGRESS shallow_wide | seed 2027 | 780.1 s | 6,518,784 bytes
+PROGRESS shallow_wide | seed 2027 | 840.0 s | 7,006,208 bytes
+PROGRESS shallow_wide | seed 2027 | 900.0 s | 7,522,304 bytes
+PROGRESS shallow_wide | seed 2027 | 960.0 s | 8,017,920 bytes
+PROGRESS shallow_wide | seed 2027 | 1020.0 s | 8,525,824 bytes
+PROGRESS shallow_wide | seed 2027 | 1080.2 s | 9,038,848 bytes
+PROGRESS shallow_wide | seed 2027 | 1140.1 s | 9,529,344 bytes
+PROGRESS shallow_wide | seed 2027 | 1200.1 s | 10,044,416 bytes
+PROGRESS shallow_wide | seed 2027 | 1260.0 s | 10,533,888 bytes
+RESULT {"seed": 2027, "model": "shallow_wide", "checkpoint": "equal_bytes", "steps": 10320, "bytes": 10567680, "training_seconds": 1263.524785349966, "bits_per_byte": 1.4695258700796725}
+PROGRESS shallow_wide | seed 2027 | 1320.1 s | 11,045,888 bytes
+PROGRESS shallow_wide | seed 2027 | 1380.0 s | 11,530,240 bytes
+PROGRESS shallow_wide | seed 2027 | 1440.0 s | 12,042,240 bytes
+PROGRESS shallow_wide | seed 2027 | 1500.2 s | 12,541,952 bytes
+PROGRESS shallow_wide | seed 2027 | 1560.0 s | 13,044,736 bytes
+PROGRESS shallow_wide | seed 2027 | 1620.1 s | 13,559,808 bytes
+PROGRESS shallow_wide | seed 2027 | 1680.0 s | 14,045,184 bytes
+PROGRESS shallow_wide | seed 2027 | 1740.0 s | 14,558,208 bytes
+PROGRESS shallow_wide | seed 2027 | 1800.2 s | 15,062,016 bytes
+RESULT {"seed": 2027, "model": "shallow_wide", "checkpoint": "equal_time", "steps": 14709, "bytes": 15062016, "training_seconds": 1800.2135655260072, "bits_per_byte": 1.4009624986586497}
+MODEL COMPLETE {"runtime_id": "ac8999e94b5c4354aee6c8ced78b2866", "seed": 2027, "model": "shallow_wide", "cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz", "threads": 2, "torch": "2.14.1+cpu", "revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64", "train_sha256": "70163c7345ec1da54cf495d9e554227eef6a622e02de79e5bacf6d8559cd292f", "eval_sha256": "4a79ede43ee5a4931fb3c5ae06f55406aecc8f6737be6ce3ce606dd84f5e86bd", "eval_bytes": 130048, "target_bytes": 10567680, "time_budget_s": 1800, "measurements": [{"seed": 2027, "model": "shallow_wide", "checkpoint": "equal_bytes", "steps": 10320, "bytes": 10567680, "training_seconds": 1263.524785349966, "bits_per_byte": 1.4695258700796725}, {"seed": 2027, "model": "shallow_wide", "checkpoint": "equal_time", "steps": 14709, "bytes": 15062016, "training_seconds": 1800.2135655260072, "bits_per_byte": 1.4009624986586497}]}
+PAIR RESULT {"seed": 2027, "runtime_id": "ac8999e94b5c4354aee6c8ced78b2866", "models": {"shallow_wide": {"equal_bytes": {"seed": 2027, "model": "shallow_wide", "checkpoint": "equal_bytes", "steps": 10320, "bytes": 10567680, "training_seconds": 1263.524785349966, "bits_per_byte": 1.4695258700796725}, "equal_time": {"seed": 2027, "model": "shallow_wide", "checkpoint": "equal_time", "steps": 14709, "bytes": 15062016, "training_seconds": 1800.2135655260072, "bits_per_byte": 1.4009624986586497}}, "deep_narrow": {"equal_bytes": {"seed": 2027, "model": "deep_narrow", "checkpoint": "equal_bytes", "steps": 10320, "bytes": 10567680, "training_seconds": 1746.3443358899963, "bits_per_byte": 1.5489836416374068}, "equal_time": {"seed": 2027, "model": "deep_narrow", "checkpoint": "equal_time", "steps": 10635, "bytes": 10890240, "training_seconds": 1800.034294383992, "bits_per_byte": 1.5409185544968242}}}}
+Reading 67,371,008 bytes from TinyStories-train.txt at revision f54c09fd23315a6f9c86f9dc80f725de7d8f9c64
+Reading 131,072 bytes from TinyStories-valid.txt at revision f54c09fd23315a6f9c86f9dc80f725de7d8f9c64
+RUN {"runtime_id": "6dfe77d7974f47b9bdd4457cf3153244", "seed": 31415, "model": "shallow_wide", "cpu": "AMD EPYC 7B12", "threads": 2, "torch": "2.14.1+cpu", "revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64", "train_sha256": "70163c7345ec1da54cf495d9e554227eef6a622e02de79e5bacf6d8559cd292f", "eval_sha256": "4a79ede43ee5a4931fb3c5ae06f55406aecc8f6737be6ce3ce606dd84f5e86bd", "eval_bytes": 130048, "target_bytes": 10567680, "time_budget_s": 1800}
+shallow_wide: verified 357,024 trainable parameters
+deep_narrow: verified 361,408 trainable parameters
+TRAINING shallow_wide | seed 31415 | 1800 s budget | starting at step 0
+PROGRESS shallow_wide | seed 31415 | 60.1 s | 766,976 bytes
+PROGRESS shallow_wide | seed 31415 | 120.0 s | 1,540,096 bytes
+PROGRESS shallow_wide | seed 31415 | 180.0 s | 2,314,240 bytes
+PROGRESS shallow_wide | seed 31415 | 240.1 s | 3,098,624 bytes
+PROGRESS shallow_wide | seed 31415 | 300.1 s | 3,891,200 bytes
+PROGRESS shallow_wide | seed 31415 | 360.0 s | 4,669,440 bytes
+PROGRESS shallow_wide | seed 31415 | 420.0 s | 5,462,016 bytes
+PROGRESS shallow_wide | seed 31415 | 480.0 s | 6,235,136 bytes
+PROGRESS shallow_wide | seed 31415 | 540.0 s | 7,030,784 bytes
+PROGRESS shallow_wide | seed 31415 | 600.0 s | 7,804,928 bytes
+PROGRESS shallow_wide | seed 31415 | 660.0 s | 8,583,168 bytes
+PROGRESS shallow_wide | seed 31415 | 720.1 s | 9,355,264 bytes
+PROGRESS shallow_wide | seed 31415 | 780.1 s | 10,148,864 bytes
+RESULT {"seed": 31415, "model": "shallow_wide", "checkpoint": "equal_bytes", "steps": 10320, "bytes": 10567680, "training_seconds": 812.088265064997, "bits_per_byte": 1.4678565035516464}
+PROGRESS shallow_wide | seed 31415 | 840.1 s | 10,938,368 bytes
+PROGRESS shallow_wide | seed 31415 | 900.0 s | 11,723,776 bytes
+PROGRESS shallow_wide | seed 31415 | 960.0 s | 12,496,896 bytes
+PROGRESS shallow_wide | seed 31415 | 1020.0 s | 13,248,512 bytes
+PROGRESS shallow_wide | seed 31415 | 1080.1 s | 13,883,392 bytes
+PROGRESS shallow_wide | seed 31415 | 1140.0 s | 14,585,856 bytes
+PROGRESS shallow_wide | seed 31415 | 1200.1 s | 15,326,208 bytes
+PROGRESS shallow_wide | seed 31415 | 1260.0 s | 16,098,304 bytes
+PROGRESS shallow_wide | seed 31415 | 1320.0 s | 16,851,968 bytes
+PROGRESS shallow_wide | seed 31415 | 1380.0 s | 17,624,064 bytes
+PROGRESS shallow_wide | seed 31415 | 1440.0 s | 18,387,968 bytes
+PROGRESS shallow_wide | seed 31415 | 1500.0 s | 19,127,296 bytes
+PROGRESS shallow_wide | seed 31415 | 1560.0 s | 19,840,000 bytes
+PROGRESS shallow_wide | seed 31415 | 1620.0 s | 20,587,520 bytes
+PROGRESS shallow_wide | seed 31415 | 1680.0 s | 21,306,368 bytes
+PROGRESS shallow_wide | seed 31415 | 1740.0 s | 22,040,576 bytes
+PROGRESS shallow_wide | seed 31415 | 1800.1 s | 22,808,576 bytes
+RESULT {"seed": 31415, "model": "shallow_wide", "checkpoint": "equal_time", "steps": 22274, "bytes": 22808576, "training_seconds": 1800.0540939039986, "bits_per_byte": 1.3354245214457483}
+MODEL COMPLETE {"runtime_id": "6dfe77d7974f47b9bdd4457cf3153244", "seed": 31415, "model": "shallow_wide", "cpu": "AMD EPYC 7B12", "threads": 2, "torch": "2.14.1+cpu", "revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64", "train_sha256": "70163c7345ec1da54cf495d9e554227eef6a622e02de79e5bacf6d8559cd292f", "eval_sha256": "4a79ede43ee5a4931fb3c5ae06f55406aecc8f6737be6ce3ce606dd84f5e86bd", "eval_bytes": 130048, "target_bytes": 10567680, "time_budget_s": 1800, "measurements": [{"seed": 31415, "model": "shallow_wide", "checkpoint": "equal_bytes", "steps": 10320, "bytes": 10567680, "training_seconds": 812.088265064997, "bits_per_byte": 1.4678565035516464}, {"seed": 31415, "model": "shallow_wide", "checkpoint": "equal_time", "steps": 22274, "bytes": 22808576, "training_seconds": 1800.0540939039986, "bits_per_byte": 1.3354245214457483}]}
+RUN {"runtime_id": "6dfe77d7974f47b9bdd4457cf3153244", "seed": 31415, "model": "deep_narrow", "cpu": "AMD EPYC 7B12", "threads": 2, "torch": "2.14.1+cpu", "revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64", "train_sha256": "70163c7345ec1da54cf495d9e554227eef6a622e02de79e5bacf6d8559cd292f", "eval_sha256": "4a79ede43ee5a4931fb3c5ae06f55406aecc8f6737be6ce3ce606dd84f5e86bd", "eval_bytes": 130048, "target_bytes": 10567680, "time_budget_s": 1800}
+shallow_wide: verified 357,024 trainable parameters
+deep_narrow: verified 361,408 trainable parameters
+TRAINING deep_narrow | seed 31415 | 1800 s budget | starting at step 0
+PROGRESS deep_narrow | seed 31415 | 60.0 s | 529,408 bytes
+PROGRESS deep_narrow | seed 31415 | 120.1 s | 1,060,864 bytes
+PROGRESS deep_narrow | seed 31415 | 180.1 s | 1,610,752 bytes
+PROGRESS deep_narrow | seed 31415 | 240.0 s | 2,140,160 bytes
+PROGRESS deep_narrow | seed 31415 | 300.1 s | 2,680,832 bytes
+PROGRESS deep_narrow | seed 31415 | 360.0 s | 3,175,424 bytes
+PROGRESS deep_narrow | seed 31415 | 420.0 s | 3,677,184 bytes
+PROGRESS deep_narrow | seed 31415 | 480.1 s | 4,180,992 bytes
+PROGRESS deep_narrow | seed 31415 | 540.0 s | 4,651,008 bytes
+PROGRESS deep_narrow | seed 31415 | 600.0 s | 5,106,688 bytes
+PROGRESS deep_narrow | seed 31415 | 660.1 s | 5,600,256 bytes
+PROGRESS deep_narrow | seed 31415 | 720.1 s | 6,103,040 bytes
+PROGRESS deep_narrow | seed 31415 | 780.0 s | 6,628,352 bytes
+PROGRESS deep_narrow | seed 31415 | 840.0 s | 7,158,784 bytes
+PROGRESS deep_narrow | seed 31415 | 900.0 s | 7,680,000 bytes
+PROGRESS deep_narrow | seed 31415 | 960.1 s | 8,206,336 bytes
+PROGRESS deep_narrow | seed 31415 | 1020.0 s | 8,765,440 bytes
+PROGRESS deep_narrow | seed 31415 | 1080.1 s | 9,313,280 bytes
+PROGRESS deep_narrow | seed 31415 | 1140.0 s | 9,858,048 bytes
+PROGRESS deep_narrow | seed 31415 | 1200.1 s | 10,414,080 bytes
+RESULT {"seed": 31415, "model": "deep_narrow", "checkpoint": "equal_bytes", "steps": 10320, "bytes": 10567680, "training_seconds": 1216.0369591759886, "bits_per_byte": 1.5392984169869621}
+PROGRESS deep_narrow | seed 31415 | 1260.1 s | 10,992,640 bytes
+PROGRESS deep_narrow | seed 31415 | 1320.1 s | 11,522,048 bytes
+PROGRESS deep_narrow | seed 31415 | 1380.1 s | 11,988,992 bytes
+PROGRESS deep_narrow | seed 31415 | 1440.1 s | 12,450,816 bytes
+PROGRESS deep_narrow | seed 31415 | 1500.1 s | 12,950,528 bytes
+PROGRESS deep_narrow | seed 31415 | 1560.0 s | 13,496,320 bytes
+PROGRESS deep_narrow | seed 31415 | 1620.1 s | 14,050,304 bytes
+PROGRESS deep_narrow | seed 31415 | 1680.1 s | 14,598,144 bytes
+PROGRESS deep_narrow | seed 31415 | 1740.1 s | 15,150,080 bytes
+PROGRESS deep_narrow | seed 31415 | 1800.0 s | 15,683,584 bytes
+RESULT {"seed": 31415, "model": "deep_narrow", "checkpoint": "equal_time", "steps": 15316, "bytes": 15683584, "training_seconds": 1800.0350170189913, "bits_per_byte": 1.4569279282954979}
+MODEL COMPLETE {"runtime_id": "6dfe77d7974f47b9bdd4457cf3153244", "seed": 31415, "model": "deep_narrow", "cpu": "AMD EPYC 7B12", "threads": 2, "torch": "2.14.1+cpu", "revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64", "train_sha256": "70163c7345ec1da54cf495d9e554227eef6a622e02de79e5bacf6d8559cd292f", "eval_sha256": "4a79ede43ee5a4931fb3c5ae06f55406aecc8f6737be6ce3ce606dd84f5e86bd", "eval_bytes": 130048, "target_bytes": 10567680, "time_budget_s": 1800, "measurements": [{"seed": 31415, "model": "deep_narrow", "checkpoint": "equal_bytes", "steps": 10320, "bytes": 10567680, "training_seconds": 1216.0369591759886, "bits_per_byte": 1.5392984169869621}, {"seed": 31415, "model": "deep_narrow", "checkpoint": "equal_time", "steps": 15316, "bytes": 15683584, "training_seconds": 1800.0350170189913, "bits_per_byte": 1.4569279282954979}]}
+PAIR RESULT {"seed": 31415, "runtime_id": "6dfe77d7974f47b9bdd4457cf3153244", "models": {"shallow_wide": {"equal_bytes": {"seed": 31415, "model": "shallow_wide", "checkpoint": "equal_bytes", "steps": 10320, "bytes": 10567680, "training_seconds": 812.088265064997, "bits_per_byte": 1.4678565035516464}, "equal_time": {"seed": 31415, "model": "shallow_wide", "checkpoint": "equal_time", "steps": 22274, "bytes": 22808576, "training_seconds": 1800.0540939039986, "bits_per_byte": 1.3354245214457483}}, "deep_narrow": {"equal_bytes": {"seed": 31415, "model": "deep_narrow", "checkpoint": "equal_bytes", "steps": 10320, "bytes": 10567680, "training_seconds": 1216.0369591759886, "bits_per_byte": 1.5392984169869621}, "equal_time": {"seed": 31415, "model": "deep_narrow", "checkpoint": "equal_time", "steps": 15316, "bytes": 15683584, "training_seconds": 1800.0350170189913, "bits_per_byte": 1.4569279282954979}}}}
